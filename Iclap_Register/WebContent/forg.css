@@ -1,0 +1,116 @@
+body
+{
+	margin: 0;
+
+}
+.split {
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow-x: hidden;
+}
+.top {
+  top: 0;
+  height: 80px;
+
+}
+.first11 
+{
+  
+  background-color:   rgb(47,79,79);
+  color: white;
+  background-image: url("blue.jpg");
+  height: 80px; 
+  width: 100%;
+
+}
+.first1
+{
+  top: 0;
+  height: 80px;
+  width: 80px;
+}
+.loginbox input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.loginbox input[type="button"]:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}
+.lib
+{
+  height: auto;
+  background-image: url("bokeh.gif");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.lib1
+{
+  border-radius: 25%;
+  margin-left: 10%;
+  margin-right: 30%;
+  height: 400px;
+
+}
+.rol
+{
+  width: 48%;
+  height: 50px;
+  border-radius: 200px;
+  font-size: 20px;
+  text-indent: 20px;
+}
+#ft
+{
+  font-size: 35px;
+  color: white;
+}
+#ft1
+{
+  height: 40px;
+  width: 60%;
+  background-color: #6617cb;
+  border-radius: 200px;
+  text-indent: 20px;
+  background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+}
+.box
+{
+
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 20%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+  border-radius: 20px;
+}
+.box:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}

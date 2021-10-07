@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+.in{
+	border-radius:200px;
+    
+}
+button {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); /* W3C */
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  border-bottom: 4px solid #2b8bc6;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+/* Just for presentation */  
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+button:active {
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+  top: 1px;
+}
+
+button:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 20px solid #187dbc;
+  border-bottom: 20px solid #187dbc;
+  border-left: 16px solid transparent;
+  border-right: 20px solid #187dbc;
+  position: absolute;
+  opacity: 0.6; 
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 5px 0;  
+}
+
+/* Button pointing left */
+.b
+{
+	margin-bottom:20%;
+}
+
+.back{
+	background-image: linear-gradient(to right top, #244e8c, #006a9b, #008087, #00905d, #789832);
+}
+
+
+.loginbox input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.loginbox input[type="button"]:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}

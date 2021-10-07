@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+  margin: 0;
+  background-image: linear-gradient(to right top, #2923ae, #2634b7, #2442bf, #2650c6, #2b5dcc, #3d6cd2, #4f7ad7, #6089dc, #7b9de2, #96b2e7, #b1c6ec, #cddaf0);  
+  background-size: 100%;
+  background-position: 0;
+  background-attachment: fixed;
+  padding: 10px;
+  height: 100vh;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+  color: #8bc4ea !important;
+}
+
+input:-moz-placeholder {
+  color: #8bc4ea !important;
+}
+
+input::-moz-placeholder {
+  color: #8bc4ea !important;
+}
+
+input:-ms-input-placeholder {
+  color: #8bc4ea !important;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container p {
+  font-size: 24px;
+  font-weight: 100;
+}
+.container h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.inputs input {
+  width: 200px;
+  height: 60px;
+  line-height: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 60px;
+  word-spacing: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+.split {
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  z-index: 999;
+  overflow-x: hidden;
+}
+.bg{
+  background-image: url("back22.jpeg");
+  background-color: #cccccc;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+
+}
+.top {
+  top: 0;
+  height: 80px;
+
+}
+.first11 
+{
+  
+  background-color:   rgb(47,79,79);
+  color: white;
+  background-image: url("blue.jpg");
+  height: 80px; 
+  width: 100%;
+
+}
+.first1
+{
+  top: 0;
+  height: 80px;
+  width: 80px;
+}
+.loginbox input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="button"]:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}
+.box
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.box:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}

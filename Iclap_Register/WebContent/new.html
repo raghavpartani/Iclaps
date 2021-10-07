@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="new.css" />
+	<title>Form</title>
+</head>
+<body class="bg">
+<div id="#home" class="split"> 
+		<div class="split top">
+    		<div class="first11"  style="position: fixed; font-size: 62px; font-family: serif;font-style: italic; font-weight: bold;"> 
+	<marquee behavior="slide"; scrollamount="180";>
+		<img class="first1" src="logo1.jpeg">I-CLAPS
+	</marquee> 
+			</div> 
+		</div>
+	<div > 
+		<a class="loginbox" href="c1.html">
+			<input type="button" name=""  value="HOME">
+		</a> 
+	</div>  
+</div>	
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="db">
+			<h1>Create Account</h1>
+		
+			
+		<input type="text" name="fn" placeholder="First name" required/>
+		<input  type="text" name="ln" placeholder="Last name" required/>
+		<input  type="number" name="mn" placeholder="Mobile Number" required/>
+		<input type="email" name="em" placeholder="E-Mail" required autocomplete='off' />
+		
+ <select required name="ar" class="dropbtn" required autocomplete='off' style="float:left;">
+            <option value="" class="dropdown-content">AREA</option>
+            <option value="bhawarkua" >Bhawarkua</option>
+            <option value="Navlakha">Navlakha</option>
+            <option value="Palasia">Palasia</option>
+            <option value="Vijay Nagar">Vijay Nagar</option>
+            </select>
+		
+
+ <select required name="service" class="dropbtn" style="float:left;" >
+            <option value="" class="dropdown-content">Services</option>
+            <option value="maid" >Maid</option>
+            <option value="Electrician">Electrician</option>
+            <option value="plumber">Plumber</option>
+            </select>
+			<button onclick="alert('OTP sent..!! Check your mail..!!')">Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="profile">
+			<h1>Sign in</h1>
+			
+			<input type="text" name="email" placeholder="Email" />
+			<input type="password" name="password" placeholder="Password" />
+			<a href="forgot.html">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="sign.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+body
+{
+	margin: 0;
+
+}
+.split {
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow-x: hidden;
+}
+.top {
+  top: 0;
+  height: 80px;
+
+}
+.first11 
+{
+  
+  background-color:   rgb(47,79,79);
+  color: white;
+  background-image: url("blue.jpg");
+  height: 80px; 
+  width: 100%;
+
+}
+.first1
+{
+  top: 0;
+  height: 80px;
+  width: 80px;
+}
+.loginbox input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.loginbox input[type="button"]:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}
+.box
+{
+  border: none;
+  outline: none;
+  margin-top: 100px;
+  margin-left: 550px;
+  height: 40px;
+  width: 20%;
+  background-color: #3aadf1;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.box:hover
+{
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #000;
+}
+#containerx
+{
+	height: 505px;
+	background-image: url("img3.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dropbtn {
+	margin-left: 550px;
+	margin-top: 160px;
+	border-radius: 20px;
+    color: black;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: :30px;
+  width: 20%;
+float: left;
+}
+.dropdown {
+  position:left;
+  display: inline-block;
+  float: left;
+  color: teal;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  float: left;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
